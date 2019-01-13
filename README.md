@@ -52,7 +52,7 @@ https://docs.docker.com/docker-for-windows/install/
 docker run \
   --name py-datas \
   --rm \
-  --mount type=bind,source=~/datasrev/test-me,target=/datasrev/run_this \
+  --mount type=bind,source=$(pwd)/test-me,target=/datasrev/run_this \
   datasrev/py-runner:0.6
   ```
   
@@ -82,7 +82,7 @@ https://docs.docker.com/docker-for-mac/install/
 docker run \
   --name py-datas \
   --rm \
-  --mount type=bind,source=~/datasrev/test-me,target=/datasrev/run_this \
+  --mount type=bind,source=$(pwd)/test-me,target=/datasrev/run_this \
   datasrev/py-runner:0.6
 ```
 
