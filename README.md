@@ -30,10 +30,10 @@ https://docs.docker.com/docker-for-windows/install/
 `git clone https://github.com/DatasRev/test-me`
 
 ### 4. Run the container
-`docker run --name py-datas --rm --mount type=bind,source=%USERPROFILE%\datasrev\test-me,target=/datasrev/run_this datasrev/py-runner:0.9`
+`docker run --name py-datas --rm --mount type=bind,source=%USERPROFILE%\datasrev\test-me,target=/datasrev/run_this datasrev/py-runner:0.6`
 
 ### 5. Run your first python code
-`docker run --name py-datas --rm --mount type=bind,source=path\to\your\sourcecode\dir,target=/datasrev/run_this datasrev/py-runner:0.9`
+`docker run --name py-datas --rm --mount type=bind,source=path\to\your\sourcecode\dir,target=/datasrev/run_this datasrev/py-runner:0.6`
 
 ## Linux
 
@@ -53,7 +53,7 @@ docker run \
   --name py-datas \
   --rm \
   --mount type=bind,source=~/datasrev/test-me,target=/datasrev/run_this \
-  datasrev/py-runner:0.9
+  datasrev/py-runner:0.6
   ```
   
 
@@ -63,7 +63,7 @@ docker run \
   --name py-datas \
   --rm \
   --mount type=bind,source=path/to/your/source/code/dir,target=/datasrev/run_this \
-  datasrev/py-runner:0.9
+  datasrev/py-runner:0.6
 ```
 
 
@@ -83,7 +83,7 @@ docker run \
   --name py-datas \
   --rm \
   --mount type=bind,source=~/datasrev/test-me,target=/datasrev/run_this \
-  datasrev/py-runner:0.9
+  datasrev/py-runner:0.6
 ```
 
 ### 4. Run any python code
@@ -92,5 +92,5 @@ docker run \
   --name py-datas \
   --rm \
   --mount type=bind,source=path/to/your/source/code/dir,target=/datasrev/run_this \
-  datasrev/py-runner:0.9
+  datasrev/py-runner:0.6
 ```
