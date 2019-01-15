@@ -26,7 +26,9 @@ https://docs.docker.com/docker-for-windows/install/
 
 ### 3. Make directory & clone a repo
 `mkdir %USERPROFILE%\datasrev`
+
 `cd %USERPROFILE%\datasrev`
+
 `git clone https://github.com/DatasRev/test-me`
 
 ### 4. Run the container
@@ -38,13 +40,20 @@ https://docs.docker.com/docker-for-windows/install/
 ## Linux
 
 ### 1. Install Docker and git
+##### Debian & Ubuntu
 `apt install -y docker-ce git`
+
+##### CentOS & RedHat
 `yum install docker git` !FIXME!
+
+##### Fedora (Suse?)
 `dnf install docker git` !FIXME!
 
 ### 2. Make directory & clone a repo
 `mkdir ~/datasrev`
+
 `cd ~/datasrev`
+
 `git clone https://github.com/DatasRev/test-me`
 
 ### 3. Run your first python code in the container
@@ -74,7 +83,9 @@ https://docs.docker.com/docker-for-mac/install/
 
 ### 2. Make directory & clone a repo
 `mkdir ~/datasrev`
+
 `cd ~/datasrev`
+
 `git clone https://github.com/DatasRev/test-me`
 
 ### 3. Run your first python code in the container
