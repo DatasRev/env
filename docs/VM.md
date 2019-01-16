@@ -27,6 +27,7 @@ into a directory (e.g. %USERPROFILE%\datasrev) and `cd` into that folder
 
 ### 2. Download the config file
 `cd ~/datasrev`
+
 `curl -O https://raw.githubusercontent.com/DatasRev/env/master/Vagrantfile`
 
 ### 3. Run the VM
@@ -42,6 +43,7 @@ into a directory (e.g. %USERPROFILE%\datasrev) and `cd` into that folder
 
 ### 2. Download config file
 `cd ~/datasrev`
+
 `curl -O https://raw.githubusercontent.com/DatasRev/env/master/Vagrantfile`
 
 ### 3. Run the VM
